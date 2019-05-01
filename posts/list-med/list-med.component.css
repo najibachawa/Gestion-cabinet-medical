@@ -1,0 +1,143 @@
+#team {
+    padding-top: 0;
+  }
+  
+  .team-members {
+    margin-bottom: 25px;
+  }
+  
+  .social-icons {
+    margin-top:30px;
+    text-align: center;
+  }
+  
+  .social-icons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .social-icons ul li {
+    float: left;
+    margin-right: 8px;
+  }
+  
+  .social-icons ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons ul li a {
+    
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    display: block;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .social-icons ul li a {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .team-member {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .team-member.social-icons ul li a.facebook {
+    background-color: #3b5999;
+  }
+  .team-member.social-icons ul li a.twitter {
+    background-color: #2ac6f7;
+  }
+  .team-member .social-icons ul li a.dribbble {
+    background-color: #ff5b92;
+  }
+  .team-member .social-icons ul li a.linkedin {
+    background-color: #036dc0;
+  }
+  .team-member.social-icons ul li a.rss {
+    background-color: #ff6b00;
+  }
+  
+  #team .img-responsive {
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  .member-info h3 {
+    margin-top: 35px;
+  }
+  
+  .member-info h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #999;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    background-color: #fff;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  .team-member {
+    margin-bottom: 50px;
+}
+.team-members .col-sm-3, 
+.blog-posts .col-sm-4  {
+    width: 50%;
+    float: left;
+}
+.social-icons ul li a {
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+}	
+.count .col-xs-6 {
+    margin-bottom: 35px;
+}
+
+  
+  #twitter > div {
+    text-align: center;
+    position: relative;
+  }
+  
+  #twitter-carousel {
+    position: relative;
+    z-index: 15
+  }
+  
+  .twitter-icon {
+    position: relative;
+    z-index: 15;
+    color: #fff;
+  }
+  
+  .twitter-icon .fa-twitter {
+    font-size: 24px;
+    height: 64px;
+    width: 64px;
+    line-height: 65px;
+    border-radius: 50%; 
+    position: relative;
+  }
+  
+  
+  .img-responsive {
+    width: 50%;border-radius: 20%;
+  }
+  .show{
+    display:block;
+  }
